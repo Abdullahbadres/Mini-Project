@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anak Panah Coffee +</title>
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./output.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+
+    <style>
+        h1 { font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Fixed Navbar -->
+     <nav class="scrolled-awake fixed top-0 left-0 w-full bg-black text-white h-16 flex items-center px-6 shadow-lg z-50">
+    <header class="fixed top-0 left-0 w-full bg-black text-white h-16 flex items-center px-6 shadow-lg z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+                <img class="h-12 w-auto" src="./logo anak panah kopi +.png" alt="Anak Panah Coffee Logo">
+
+            <!-- Center Tagline -->
+            <p class="md:block text-2xl font-light uppercase tracking-wide">
+                OUR COFFEE CAN FIX YOUR LIFE
+            </p>
+
+            <!-- Navigation -->
+            <nav class="flex gap-4 text-xl font-medium">
+                <a href="" class="hover:text-amber-400 transition">HOME</a>
+                <a href="" class="hover:text-amber-400 transition">MENU</a>
+                <a href="" class="hover:text-amber-400 transition">COFFEE</a>
+                <a href="" class="hover:text-amber-400 transition">CONTACT US</a>
+                <a href="">
+                    <img class="size-10" src="./apk contact us.jpg" alt="Contact Icon">
+                </a>
+            </nav>
+        </div>
+        <img class = "h-12 w-auto" src="./logo anak panah kopi +.png" alt="anak panak special coffee" />
+</div>
+        </div>
+    </header>
+     </nav>
+
+    <!-- Image Slider Section -->
+    <section class= "relative bg-cover bg-center py-24" style="background-image: url('https://i.ibb.co.com/RTdF4z3X/backgroundarrow.png');"> 
+        <!-- Overlay for better visibility (optional) -->
+        <div class="absolute inset-0 bg-black/30"></div>
+    
+        <div class="container mx-auto relative z-10">
+            <div class="slide">
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./APK foodview2.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./ANAK PANAH VIEW.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./ANAK PANAH.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./ANAKPANAHFOOD W COFFEE.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./APK1.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto rounded-lg shadow-md" src="./APK2.jpg" alt="Anak Panah Coffee"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery & Slick.js online source code-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+    <!-- Custom Slider Script -->
+    <script>
+        $(document).ready(function(){
+            $('.slide').slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                speed: 700,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: true,
+                infinite: true,
+                fade: true,
+                cssEase: 'linear',
+            });
+        });
+    </script>
+    <!-- MENU SECTION -->
+    <h2 class="text-4xl font-bold mb-4 text-amber-300 text-center">FIND OUR BEST MENU FOR YOU</h2>
+    <hr style="color:bisque; margin: 10px; margin-left: 0px; margin-right: 0px;text-decoration-thickness: 5px; border-width: 2px;">
+    <section class ="container mx-auto flex flex-cols-1 lg:flex-row gap-4">
+        <div class="w-full lg:w-1/2">
+            <!-- coffee -->
+            <p class="text-amber-700 mb-4 text-3xl text-center">COFFEE BASED</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/jkZJBGkD/kopiklepon.jpg" alt="Kopi Klepon"/>
+                    <h3 class="text-lg font-semibold mb-2">Kopi Klepon</h3><hr/><br/>
+                        <ul>
+                            <li>Espresso</li>
+                            <li>Steamed Milk</li>
+                            <li>Vanilla Syrup</li>
+                            <li>Coconut Ball</li>
+                        </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-md font-semibold mb-2">Cold Brew Apple</h3> <hr/> <br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/F4NxLjr8/coldbrewapel.jpg" alt="Cold Brew Apple"/>
+                    <ul>
+                        <li>Concentrated-Coffee</li>
+                        <li>Apple Juice</li>
+                    </ul>
+                </div> 
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2">Chocopresso</h3><hr/><br/>
+                    <ul>
+                        <li>Espresso</li>
+                        <li>Chocolate Syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Chocolate Chips</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/SDXPFfVC/chocopresso.jpg" alt="Chocopresso"/><br/><br/><br/><br/>    
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2">Coffee Latte</h3><hr/><br/>
+                    <ul>
+                        <li>Espresso</li>
+                        <li>Steamed Milk</li>
+                        <li>Vanilla Syrup</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/ksBBmYd2/coffeelatte.jpg" alt="Coffee Latte"/>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2">Caramel Affogato</h3><hr/><br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/fYMWPB8r/caramelaffo.jpg" alt="Caramel Affogato"/>
+                    <ul>
+                        <li>Espresso</li>
+                        <li>Caramel Syrup</li>
+                        <li>A Scoop of Ice Cream</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/pjtLXwmM/doppio.jpg" alt="Doppio"/><br/>
+                    <h3 class="text-lg font-semibold mb-2">Doppio</h3><hr/><br/>
+                    <ul>
+                        <li>Espresso</li>
+                        <li>Espresso</li>
+                    </ul>                   
+                </div>
+            </div>
+        </div>
+                <!-- non coffee -->
+        <div class="w-full lg:w-1/2">
+            <p class="text-sky-800 mb-4 text-3xl text-center">NON COFFEE</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2">Chocorange</h3><hr/><br/>
+                        <ul>
+                            <li>Chocolate Syrup</li>
+                            <li>Orange Juice</li>
+                            <li>Steamed Milk</li>
+                            <li>Orange Slice</li>
+                        </ul><br/><br/>
+                        <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/XMzj6Br/chocoorange.jpg" alt="Chocorange"/>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-md font-semibold mb-2">Mixed Smoothies</h3> <hr/> <br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/qYb7rZ5N/smoothiesbowl.jpg" alt="MixedBowlSmoothies"/>
+                    <ul>
+                        <li>Blended Yogurt & Ice Cream</li>
+                        <li>Slices Strawberries</li>
+                        <li>Slices Fruits</li>
+                        <li>Whole Oats</li>
+                    </ul>
+                </div> 
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/F4NDj7pR/charcoal.webp" alt="Charcoal"/>
+                    <h3 class="text-lg font-semibold mb-2">Charcoal</h3><hr/>
+                    <ul>
+                        <li>Chocolate syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Baked Caramelized Milk</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/FkKchKC0/strawberryshortcake.webp" alt="Strawberry Shortcake"/>
+                    <h3 class="text-lg font-semibold mb-2">Strawberry Shortcake</h3><hr/>
+                    <ul>
+                        <li>Strawberry Syrup</li>
+                        <li>Vanilla Syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Strawberry Slices</li>
+                        <li>Mini Cheese Cake</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2">Banana Smoothies</h3><hr/><br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/LwgfMs9/bananasmoothies.jpg" alt="Banana Smoothies"/>
+                    <ul>
+                        <li>Blended Yogurt & Ice Cream</li>
+                        <li>Slices Bananas</li>
+                        <li>Whole Oats</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-md font-semibold mb-2">Choco Campfire</h3> <hr/> <br/>
+                    <ul>
+                        <li>Pure Dark Chocolate</li>
+                        <li>Fresh Milk</li>
+                        <li>Baked Marshmallow</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/sLDBC5b/chococampfire.jpg" alt="ChocoCampFire"/>
+                    <br/>
+                    <br/>                  
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<br />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>   
+</body>
+</html>
+
+<!-- https://play.tailwindcss.com/s9RiIvMZUA -->
