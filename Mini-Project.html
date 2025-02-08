@@ -1,0 +1,382 @@
+
+<!-- UNUSED -->
+<!-- hello from mondaykiller -->
+ <!-- this is just checking by to github -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anak Panah Coffee +++++</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./output.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+
+    <style>
+        h1 { font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Fixed Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-black text-white h-16 flex items-center px-6 shadow-lg z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <img class="h-12 w-auto" src="./logo anak panah kopi +.png" alt="Anak Panah Coffee Logo">
+
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex gap-4 text-lg font-medium">
+                <a href="#" class="hover:text-amber-400 transition">HOME</a>
+                <a href="#" class="hover:text-amber-400 transition">MENU</a>
+                <a href="#" class="hover:text-amber-400 transition">COFFEE</a>
+                <a href="#" class="hover:text-amber-400 transition">CONTACT US</a>
+                <a href="#"><img class="size-10" src="./apk contact us.jpg" alt="Contact Icon"></a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-black text-white flex flex-col text-center py-4 shadow-lg">
+        <a href="#" class="py-2 hover:bg-amber-400">HOME</a>
+        <a href="#" class="py-2 hover:bg-amber-400">MENU</a>
+        <a href="#" class="py-2 hover:bg-amber-400">COFFEE</a>
+        <a href="#" class="py-2 hover:bg-amber-400">CONTACT US</a>
+    </div>
+
+    <script>
+        // JavaScript for Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    <!-- Main Content Section -->
+    <section class="relative bg-cover bg-center py-24" style="background-image: url('https://i.ibb.co/RTdF4z3X/backgroundarrow.png');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/30"></div> 
+        <div class="container mx-auto relative z-10">
+            <div class="slide">
+                <div><img class="w-full h-auto aspect-video rounded-lg shadow-md" src="./APK foodview2.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto aspect-video rounded-lg shadow-md" src="./ANAK PANAH VIEW.jpg" alt="Anak Panah Coffee"></div>
+                <div><img class="w-full h-auto aspect-video rounded-lg shadow-md" src="./ANAK PANAH.jpg" alt="Anak Panah Coffee"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery & Slick.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+    <!-- Slider Script -->
+    <script>
+        $(document).ready(function(){
+            $('.slide').slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                speed: 700,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: true,
+                infinite: true,
+                fade: true,
+                cssEase: 'linear',
+            });
+        });
+    </script>
+
+    <!-- Menu Section -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-4xl font-bold mb-4 text-slate-500 text-center">FIND OUR BEST SIGNATURE MENU FOR YOU</h2>
+        <hr class="border-b-2 border-bisque mx-auto w-1/2">
+
+        <div class="overflow-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
+    <section class ="container mx-auto flex flex-cols-1 lg:flex-row gap-4">
+        <div class="w-full lg:w-1/2">
+            <!-- coffee -->
+            <p class="text-amber-700 mb-4 text-3xl text-center">COFFEE BASED</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/jkZJBGkD/kopiklepon.jpg" alt="Kopi Klepon"/>
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Kopi Klepon</h3><hr/><br/>
+                        <ul class="list-disc list-inside"> 
+                            <li>Espresso</li>
+                            <li>Steamed Milk</li>
+                            <li>Vanilla Syrup</li>
+                            <li>Coconut Ball</li>
+                        </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Cold Brew Apple</h3> <hr/> <br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/F4NxLjr8/coldbrewapel.jpg" alt="Cold Brew Apple"/>
+                    <ul class="list-disc list-inside">
+                        <li>Concentrated-Coffee</li>
+                        <li>Apple Juice</li>
+                    </ul>
+                </div> 
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Chocopresso</h3><hr/><br/>
+                    <ul class="list-disc list-inside">
+                        <li>Espresso</li>
+                        <li>Chocolate Syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Chocolate Chips</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/SDXPFfVC/chocopresso.jpg" alt="Chocopresso"/><br/><br/><br/><br/>    
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Coffee Latte</h3><hr/><br/>
+                    <ul class="list-disc list-inside">
+                        <li>Espresso</li>
+                        <li>Steamed Milk</li>
+                        <li>Vanilla Syrup</li>
+                    </ul>
+                    <img class="aspect-fit h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/ksBBmYd2/coffeelatte.jpg" alt="Coffee Latte"/>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Caramel Affogato</h3><hr/><br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/fYMWPB8r/caramelaffo.jpg" alt="Caramel Affogato"/>
+                    <ul class="list-disc list-inside">
+                        <li>Espresso</li>
+                        <li>Caramel Syrup</li>
+                        <li>A Scoop of Ice Cream</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/pjtLXwmM/doppio.jpg" alt="Doppio"/><br/>
+                    <h3 class="text-lg font-semibold mb-2 bg-amber-100">Doppio</h3><hr/><br/>
+                    <ul class="list-disc list-inside">
+                        <li>Espresso</li>
+                        <li>Espresso</li>
+                    </ul>                   
+                </div>
+            </div>
+        </div>
+                <!-- non coffee -->
+        <div class="w-full lg:w-1/2">
+            <p class="text-sky-800 mb-4 text-3xl text-center">NON COFFEE</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Chocorange</h3><hr/><br/>
+                        <ul class="list-disc list-inside">
+                            <li>Chocolate Syrup</li>
+                            <li>Orange Juice</li>
+                            <li>Steamed Milk</li>
+                            <li>Orange Slice</li>
+                        </ul><br/><br/>
+                        <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/XMzj6Br/chocoorange.jpg" alt="Chocorange"/>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Mixed Smoothies</h3> <hr/> <br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/qYb7rZ5N/smoothiesbowl.jpg" alt="MixedBowlSmoothies"/>
+                    <ul class="list-disc list-inside">
+                        <li>Blended Yogurt & Ice Cream</li>
+                        <li>Slices Strawberries</li>
+                        <li>Slices Fruits</li>
+                        <li>Whole Oats</li>
+                    </ul>
+                </div> 
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/F4NDj7pR/charcoal.webp" alt="Charcoal"/>
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Charcoal</h3><hr/>
+                    <ul class="list-disc list-inside">
+                        <li>Dark Chocolate syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Baked Caramelized Milk</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/FkKchKC0/strawberryshortcake.webp" alt="Strawberry Shortcake"/>
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Strawberry Shortcake</h3><hr/>
+                    <ul class="list-disc list-inside">
+                        <li>Strawberry Syrup</li>
+                        <li>Vanilla Syrup</li>
+                        <li>Steamed Milk</li>
+                        <li>Strawberry Slices</li>
+                        <li>Mini Cheese Cake</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Banana Smoothies</h3><hr/><br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/s9VhkpJp/bananasmoothies2.jpg" alt="Banana Smoothies"/>
+                    <ul class="list-disc list-inside">
+                        <li>Blended Yogurt & Ice Cream</li>
+                        <li>Slices Bananas</li>
+                        <li>Whole Oats</li>
+                        <li>Cinnamons Powder</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold mb-2 bg-sky-100">Choco Campfire</h3> <hr/> <br/>
+                    <ul class="list-disc list-inside">
+                        <li>Pure Dark Chocolate</li>
+                        <li>Fresh Milk</li>
+                        <li>Baked Marshmallow</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/sLDBC5b/chococampfire.jpg" alt="ChocoCampFire"/>                
+                </div>
+            </div>
+        </div>
+    </section>
+<br />
+<br />
+<br />
+<section class ="container mx-auto flex flex-cols-1 lg:flex-row gap-4">
+    <div class="w-full lg:w-1/2">
+        <!-- bowl -->
+        <p class="text-yellow-800 mb-4 text-3xl text-center">BOWL</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">Chicken Rice Lemongrass</h3><hr/><br/>
+                    <ul class="list-disc list-inside"> 
+                        <li>Fried Chicken</li>
+                        <li>Cooked Rice w/ Lemongrass</li>
+                        <li>Additional Sauce</li>
+                    </ul>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/Vp023DSh/chickenlemongrass.jpg" alt="lemongrasschicken"/>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">Loco Moco</h3> <hr/> <br/>
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/SwF6WQNF/locomoco.jpg" alt="Loco Moco"/>
+                <ul class="list-disc list-inside">
+                    <li>Cooked Rice</li>
+                    <li>Sunny Side Up Egg</li>
+                    <li>Beef Patty</li>
+                    <li>Additional Sauce</li>
+                </ul>
+            </div> 
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/F4cFzPC2/chopsuey.jpg" alt="ChopSuey!"/>
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">Chop Suey!</h3><hr/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Mixed Veggies</li>
+                    <li>Mixed Meats</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/5gV9zzdb/mushroomsoup.jpg" alt="Mushroom Soups"/>
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">Mushroom Soups</h3><hr/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Mushrooms</li>
+                    <li>Other Veggies</li>
+                    <li>Tomatoes</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">INSTANT NOODLES</h3><hr/><br/>
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/ZpckFsYV/instant-noodles.jpg" alt="Noodles"/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Noodles</li>
+                    <li>Requested Toppings</li>
+                    <li>Additional Sauce</li>
+                </ul>                   
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-slate-200">Beef Balado</h3><hr/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Cooked Rice</li>
+                    <li>Beef</li>
+                    <li>Additional Sauce</li>
+                </ul>
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/qYyhXGSW/beefbalado.jpg" alt="Beef Balado"/>
+            </div>
+        </div>
+    </div>
+    <!-- BOWL -->
+    <div class="w-full lg:w-1/2">
+        <p class="text-emerald-600 mb-4 text-3xl text-center">BITES</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="bg-white rounded-lg shadow-md p-4">
+                            <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/LXFd40qN/eggcheesetoast.jpg" alt="eggncheesetoast"/>
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">Egg n Cheese Toast</h3><hr/>
+                <ul class="list-disc list-inside">
+                    <li>Toasted Bread</li>
+                    <li>Sunny Side Up Egg</li>
+                    <li>Melted Cheese</li>
+                    <li>Mozzarella</li>
+                </ul>   
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">Animal Fries</h3> <hr/> <br/>
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/VcXLtYrP/animal-fries.jpg" alt="animalfries"/>
+                <ul class="list-disc list-inside">
+                    <li>Chicken Sticks</li>
+                    <li>Sausages</li>
+                    <li>Chicken Wings</li>
+                    <li>Additional Sauce</li>
+                </ul>
+            </div> 
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">Mix Platter</h3><hr/><br/>
+                    <ul class="list-disc list-inside"> 
+                        <li>Dory</li>
+                        <li>Shrimp</li>
+                        <li>Potato Wedges</li>
+                        <li>Tartar Sauce</li>
+                    </ul><br/>
+                    <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/Pv8h25p9/mixplatter.jpg" alt="mixplatter"/>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">Nachos n Cheese</h3><hr/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Nachos Chips</li>
+                    <li>Melted Cheese</li>
+                    <li>Additional Sauce</li>
+                </ul>
+                <img class="aspect-square h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/Cpq7ysSh/nachoncheese.jpg" alt="nachoncheese"/>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">French Fries</h3><hr/><br/>
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/dJGw9xRc/french-fries.jpg" alt="frenchfries"/>
+                <ul class="list-disc list-inside">
+                    <li>Classic Fries</li>
+                    <li>Signature Sauce</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img class="aspect-auto h-auto rounded-lg shadow-md hover:scale-150" src="https://i.ibb.co.com/39Rh124B/onion-ring.jpg" alt="onionring"/><br/>
+                <h3 class="text-lg font-semibold mb-2 bg-emerald-100">Onion Rings</h3><hr/><br/>
+                <ul class="list-disc list-inside">
+                    <li>Classic Onion Fries</li>
+                    <li>Signature Sauce</li>
+                </ul>                   
+            </div>
+        </div>
+    </div>
+</section>
+<br />
+<br />
+<h2 class="text-4xl font-bold mb-4 text-pink-800 text-center">OUR MENU</h2>
+<br />
+<p>
+<ul>
+    <li>Espresso</li>
+    <li>Hot Chocolate</li>
+    <li>Tea</li>
+    <li>Latte</li>
+    <li>Mocha</li>
+</ul>
+</p>
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2018 Anak Panah Coffee. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+
+<!-- https://play.tailwindcss.com/KG1NNxGXRF -->
