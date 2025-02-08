@@ -1,4 +1,8 @@
+
 /*! tailwindcss v4.0.1 | MIT License | https://tailwindcss.com */
+=======
+/*! tailwindcss v4.0.4 | MIT License | https://tailwindcss.com */
+/* >>>>>>> 825f051 (updated .gitignore and remove unused files to look neat) */
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -553,6 +557,12 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+<<<<<<< HEAD
+=======
+  .top-16 {
+    top: calc(var(--spacing) * 16);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
@@ -595,21 +605,57 @@
   .mx-auto {
     margin-inline: auto;
   }
+<<<<<<< HEAD
+=======
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+<<<<<<< HEAD
+=======
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
   }
+<<<<<<< HEAD
   .block {
     display: block;
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .flex {
     display: flex;
   }
@@ -625,6 +671,7 @@
   .inline-block {
     display: inline-block;
   }
+<<<<<<< HEAD
   .inline-flex {
     display: inline-flex;
   }
@@ -634,6 +681,14 @@
   .table {
     display: table;
   }
+=======
+  .table {
+    display: table;
+  }
+  .aspect-\[16\/9\] {
+    aspect-ratio: 16/9;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .aspect-auto {
     aspect-ratio: auto;
   }
@@ -643,6 +698,13 @@
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
+<<<<<<< HEAD
+=======
+  .size-6 {
+    width: calc(var(--spacing) * 6);
+    height: calc(var(--spacing) * 6);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .size-10 {
     width: calc(var(--spacing) * 10);
     height: calc(var(--spacing) * 10);
@@ -650,6 +712,12 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+<<<<<<< HEAD
+=======
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -665,12 +733,15 @@
   .h-fit {
     height: fit-content;
   }
+<<<<<<< HEAD
   .w-0 {
     width: calc(var(--spacing) * 0);
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .w-1\/1 {
     width: calc(1/1 * 100%);
   }
@@ -680,6 +751,7 @@
   .w-1\/4 {
     width: calc(1/4 * 100%);
   }
+<<<<<<< HEAD
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -689,6 +761,20 @@
   .w-28 {
     width: calc(var(--spacing) * 28);
   }
+=======
+  .w-5\/7 {
+    width: calc(5/7 * 100%);
+  }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
+  }
+  .w-28 {
+    width: calc(var(--spacing) * 28);
+  }
+  .w-52 {
+    width: calc(var(--spacing) * 52);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .w-auto {
     width: auto;
   }
@@ -698,17 +784,37 @@
   .w-full {
     width: 100%;
   }
+<<<<<<< HEAD
+=======
+  .max-w-4xl {
+    max-width: var(--container-4xl);
+  }
+  .max-w-5xl {
+    max-width: var(--container-5xl);
+  }
+  .max-w-\[800px\] {
+    max-width: 800px;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .flex-1 {
     flex: 1;
   }
   .border-collapse {
     border-collapse: collapse;
   }
+<<<<<<< HEAD
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
   .resize {
     resize: both;
+=======
+  .list-inside {
+    list-style-position: inside;
+  }
+  .list-disc {
+    list-style-type: disc;
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   }
   .columns-2 {
     columns: 2;
@@ -722,8 +828,13 @@
   .grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+<<<<<<< HEAD
   .grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
+=======
+  .flex-col {
+    flex-direction: column;
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   }
   .flex-wrap {
     flex-wrap: wrap;
@@ -743,6 +854,38 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
+<<<<<<< HEAD
+=======
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .space-y-2 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-4 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .overflow-auto {
+    overflow: auto;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .rounded {
     border-radius: 0.25rem;
   }
@@ -755,6 +898,12 @@
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
+<<<<<<< HEAD
+=======
+  .rounded-md {
+    border-radius: var(--radius-md);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
@@ -774,10 +923,27 @@
     border-style: var(--tw-border-style);
     border-width: 4px;
   }
+<<<<<<< HEAD
+=======
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .border-dashed {
     --tw-border-style: dashed;
     border-style: dashed;
   }
+<<<<<<< HEAD
+=======
+  .border-gray-300 {
+    border-color: var(--color-gray-300);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .border-green-300 {
     border-color: var(--color-green-300);
   }
@@ -799,6 +965,12 @@
   .bg-cyan-300 {
     background-color: var(--color-cyan-300);
   }
+<<<<<<< HEAD
+=======
+  .bg-emerald-100 {
+    background-color: var(--color-emerald-100);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
@@ -808,6 +980,7 @@
   .bg-gray-500 {
     background-color: var(--color-gray-500);
   }
+<<<<<<< HEAD
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -816,6 +989,31 @@
   }
   .bg-linear-to-r {
     --tw-gradient-position: to right in oklab,;
+=======
+  .bg-gray-800 {
+    background-color: var(--color-gray-800);
+  }
+  .bg-pink-600 {
+    background-color: var(--color-pink-600);
+  }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
+  .bg-sky-100 {
+    background-color: var(--color-sky-100);
+  }
+  .bg-slate-200 {
+    background-color: var(--color-slate-200);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-white\/80 {
+    background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
+  }
+  .bg-linear-to-r {
+    --tw-gradient-position: to right in oklab;
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
   .bg-\[url\(\)\] {
@@ -823,6 +1021,7 @@
   }
   .from-fuchsia-300 {
     --tw-gradient-from: var(--color-fuchsia-300);
+<<<<<<< HEAD
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position,) var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-violet-800 {
@@ -832,10 +1031,22 @@
   .via-sky-500 {
     --tw-gradient-via: var(--color-sky-500);
     --tw-gradient-via-stops: var(--tw-gradient-position,) var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+=======
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-violet-800 {
+    --tw-gradient-from: var(--color-violet-800);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .via-sky-500 {
+    --tw-gradient-via: var(--color-sky-500);
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
   .to-fuchsia-300 {
     --tw-gradient-to: var(--color-fuchsia-300);
+<<<<<<< HEAD
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position,) var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-violet-800 {
@@ -844,13 +1055,23 @@
   }
   .bg-auto {
     background-size: auto;
+=======
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-violet-800 {
+    --tw-gradient-to: var(--color-violet-800);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   }
   .bg-cover {
     background-size: cover;
   }
+<<<<<<< HEAD
   .bg-fixed {
     background-attachment: fixed;
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .bg-center {
     background-position: center;
   }
@@ -860,9 +1081,12 @@
   .object-fill {
     object-fit: fill;
   }
+<<<<<<< HEAD
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -872,6 +1096,12 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+<<<<<<< HEAD
+=======
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
@@ -893,9 +1123,21 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
+<<<<<<< HEAD
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+=======
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
   }
@@ -905,15 +1147,33 @@
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
   }
+<<<<<<< HEAD
   .text-center {
     text-align: center;
   }
+=======
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-justify {
+    text-align: justify;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .text-right {
     text-align: right;
   }
   .font-mono {
     font-family: var(--font-mono);
   }
+<<<<<<< HEAD
+=======
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -950,10 +1210,24 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+<<<<<<< HEAD
+=======
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+<<<<<<< HEAD
+=======
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .font-light {
     --tw-font-weight: var(--font-weight-light);
     font-weight: var(--font-weight-light);
@@ -974,6 +1248,7 @@
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
   }
+<<<<<<< HEAD
   .text-pretty {
     text-wrap: pretty;
   }
@@ -986,12 +1261,24 @@
   .text-amber-700 {
     color: var(--color-amber-700);
   }
+=======
+  .text-wrap {
+    text-wrap: wrap;
+  }
+  .text-amber-700 {
+    color: var(--color-amber-700);
+  }
+  .text-emerald-600 {
+    color: var(--color-emerald-600);
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .text-gray-400 {
     color: var(--color-gray-400);
   }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
+<<<<<<< HEAD
   .text-gray-600 {
     color: var(--color-gray-600);
   }
@@ -1003,6 +1290,19 @@
   }
   .text-green-600 {
     color: var(--color-green-600);
+=======
+  .text-gray-700 {
+    color: var(--color-gray-700);
+  }
+  .text-gray-800 {
+    color: var(--color-gray-800);
+  }
+  .text-gray-900 {
+    color: var(--color-gray-900);
+  }
+  .text-pink-800 {
+    color: var(--color-pink-800);
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   }
   .text-sky-300 {
     color: var(--color-sky-300);
@@ -1010,6 +1310,7 @@
   .text-sky-800 {
     color: var(--color-sky-800);
   }
+<<<<<<< HEAD
   .text-white {
     color: var(--color-white);
   }
@@ -1024,6 +1325,20 @@
       color: var(--color-emerald-400);
     }
   }
+=======
+  .text-slate-500 {
+    color: var(--color-slate-500);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .text-yellow-800 {
+    color: var(--color-yellow-800);
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .caret-amber-900 {
     caret-color: var(--color-amber-900);
   }
@@ -1059,22 +1374,29 @@
   .outline-offset-2 {
     outline-offset: 2px;
   }
+<<<<<<< HEAD
   .drop-shadow {
     --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow( 0 1px 1px rgb(0 0 0 / 0.06));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .drop-shadow-md {
     --tw-drop-shadow: drop-shadow(var(--drop-shadow-md));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+<<<<<<< HEAD
   .grayscale {
     --tw-grayscale: grayscale(100%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .grayscale-100 {
     --tw-grayscale: grayscale(100%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+<<<<<<< HEAD
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
@@ -1082,6 +1404,8 @@
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -1102,6 +1426,19 @@
       }
     }
   }
+<<<<<<< HEAD
+=======
+  .hover\:scale-125 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 125%;
+        --tw-scale-y: 125%;
+        --tw-scale-z: 125%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .hover\:scale-150 {
     &:hover {
       @media (hover: hover) {
@@ -1112,6 +1449,33 @@
       }
     }
   }
+<<<<<<< HEAD
+=======
+  .hover\:scale-200 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 200%;
+        --tw-scale-y: 200%;
+        --tw-scale-z: 200%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:bg-amber-400 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-amber-400);
+      }
+    }
+  }
+  .hover\:bg-pink-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-pink-700);
+      }
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .hover\:text-amber-400 {
     &:hover {
       @media (hover: hover) {
@@ -1135,21 +1499,85 @@
       }
     }
   }
+<<<<<<< HEAD
+=======
+  .focus\:ring-2 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .focus\:ring-pink-600 {
+    &:focus {
+      --tw-ring-color: var(--color-pink-600);
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .sm\:w-1\/3 {
     @media (width >= 40rem) {
       width: calc(1/3 * 100%);
     }
   }
+<<<<<<< HEAD
+=======
+  .sm\:max-w-\[900px\] {
+    @media (width >= 40rem) {
+      max-width: 900px;
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+<<<<<<< HEAD
+=======
+  .sm\:px-6 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--spacing) * 6);
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .md\:block {
     @media (width >= 48rem) {
       display: block;
     }
   }
+<<<<<<< HEAD
+=======
+  .md\:flex {
+    @media (width >= 48rem) {
+      display: flex;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 48rem) {
+      display: none;
+    }
+  }
+  .md\:w-72 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 72);
+    }
+  }
+  .md\:max-w-\[700px\] {
+    @media (width >= 48rem) {
+      max-width: 700px;
+    }
+  }
+  .md\:grid-cols-1 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1160,9 +1588,49 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+<<<<<<< HEAD
   .md\:grid-rows-2 {
     @media (width >= 48rem) {
       grid-template-rows: repeat(2, minmax(0, 1fr));
+=======
+  .md\:p-10 {
+    @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 10);
+    }
+  }
+  .md\:px-8 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:px-20 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:text-2xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .md\:text-3xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .md\:text-4xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
+  .md\:text-xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
     }
   }
   .lg\:w-1\/2 {
@@ -1170,6 +1638,19 @@
       width: calc(1/2 * 100%);
     }
   }
+<<<<<<< HEAD
+=======
+  .lg\:w-auto {
+    @media (width >= 64rem) {
+      width: auto;
+    }
+  }
+  .lg\:grid-cols-1 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .lg\:grid-cols-2 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1180,16 +1661,32 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+<<<<<<< HEAD
   .lg\:grid-rows-3 {
     @media (width >= 64rem) {
       grid-template-rows: repeat(3, minmax(0, 1fr));
     }
   }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
     }
   }
+<<<<<<< HEAD
+=======
+  .lg\:px-8 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:px-12 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+  }
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
 }
 .card {
   display: flex;
@@ -1251,6 +1748,7 @@
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+<<<<<<< HEAD
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
@@ -1275,6 +1773,12 @@
   syntax: "*";
   inherits: false;
   initial-value: skewY(0);
+=======
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
 }
 @property --tw-border-style {
   syntax: "*";
@@ -1323,6 +1827,13 @@
   inherits: false;
   initial-value: 100%;
 }
+<<<<<<< HEAD
+=======
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -1427,6 +1938,7 @@
   syntax: "*";
   inherits: false;
 }
+<<<<<<< HEAD
 @property --tw-backdrop-blur {
   syntax: "*";
   inherits: false;
@@ -1463,6 +1975,8 @@
   syntax: "*";
   inherits: false;
 }
+=======
+>>>>>>> 825f051 (updated .gitignore and remove unused files to look neat)
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
